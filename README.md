@@ -21,15 +21,16 @@ You only install once — later versions update from inside the app (see [Update
 
 ## 2. Log in
 
-Choose **Institution member** and enter your **institution code**, **member ID**
-and **password** — the same ones you use on the institution portal.
-(A personal amarprosno.com account works too: use **Personal account**.)
+Enter your **Member ID** (for example `IM-12345`) and **password** — the same
+ones you use on the institution portal. A personal amarprosno.com account works
+too: enter your **phone number or email** instead. You can also continue with
+**Google** or **Facebook**.
 
 ![Login](docs/images/1-login.png)
 
 If your institution has more than one branch, pick the branch you work in.
 You will only see that branch's projects, results and credits. You can switch
-later with **⇄ Change branch** at the bottom left.
+later with **Switch branch** in the *Active project* box at the bottom left.
 
 ![Select branch](docs/images/2-branch.png)
 
@@ -39,15 +40,16 @@ later with **⇄ Change branch** at the bottom left.
 
 Projects are created on the website (OMR → Projects). In the app, go to
 **Projects**, select one to see its details (answer sets, marking), and click
-**Open project →**. The project is saved on your computer, so it keeps working
+**Open project**. The project is saved on your computer, so it keeps working
 offline.
 
 ![Projects](docs/images/3-projects.png)
 
 ## 4. Evaluate sheets
 
-1. Click **+ Images** (pick scanned sheets) or **+ Folder** (a whole folder).
-2. Click **Start**.
+1. Drag and drop the scanned sheets (or a whole folder) onto the page, or click
+   **Select Images** / **Select Folder**.
+2. Click **Start Evaluation**.
 3. Each sheet appears in **Results** with roll, set, score, correct and wrong.
 
 ![Evaluate](docs/images/4-evaluate.png)
@@ -61,7 +63,7 @@ offline.
 | **Edit** | Fix the roll or set. Changing the set re-checks the sheet with that set's answers |
 | **Delete** | Removes the result from this computer |
 
-**Remaining** (top right) is how many sheets your credits still allow. Credits
+**Quota** (top right) is how many sheets your credits still allow. Credits
 are used when results are synced.
 
 ## 5. Fix mismatches
@@ -75,8 +77,9 @@ choose the right roll/set, and the sheet is checked again.
 
 ## 6. Sync results to the website
 
-When you have internet, go to **Sync** and click **Sync N result(s)**.
+When you have internet, click **Sync (N)** at the top of the **Evaluate** page.
 Only the results are sent (no images), so it is quick even on mobile data.
+Sheets that are already sent show **Synced** in the *Status* column.
 The results then appear in the project on amarprosno.com.
 
 ![Sync](docs/images/6-sync.png)
@@ -86,8 +89,9 @@ page — it saves them all (with a `results.csv`) in one ZIP file.
 
 ## 7. Updates
 
-When a new version is released, the app tells you when you open it.
-Click **Update now** — it downloads, installs and reopens by itself.
+When a new version is released, the app downloads it in the background and
+shows a bar at the top. When it says the update is ready, click **Restart & Update** —
+it installs and reopens by itself (or choose **Later**).
 Your projects, results and login are kept.
 
 ![Update available](docs/images/7-update.png)
