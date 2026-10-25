@@ -1,7 +1,16 @@
-# AmarProsno OMR — Offline Desktop App
+# AmarProsno OMR — Offline OMR Sheet Evaluation Software for Windows
 
-Check OMR sheets on your computer **without internet**, then send the results
-to [amarprosno.com](https://amarprosno.com) when you are back online.
+**Free offline OMR sheet evaluation software** — scan, check and score OMR
+sheets on your computer **without internet**, then send the results to
+[amarprosno.com](https://amarprosno.com) when you are back online.
+Made for schools, colleges and coaching centers in Bangladesh.
+
+> **ওএমআর শীট মূল্যায়ন সফটওয়্যার (অফলাইন)** — ইন্টারনেট ছাড়াই ওএমআর শীট চেক
+> করুন, ইন্টারনেট পেলে ফলাফল [আমার প্রশ্ন](https://amarprosno.com/omr-software)-এ সিঙ্ক করুন।
+
+**Features:** offline OMR checker · roll, set and answer detection · mismatch
+check for double-filled bubbles · marked sheets and per-question reports ·
+branch-wise projects and credits · one-click sync to the website.
 
 **[⬇ Download the latest version](https://github.com/avro0184/amarprosno-offline-omr-evaluation/releases/latest)**
 — open the page, then click **AmarProsnoOMR-Setup-x.x.x.exe** under *Assets*.
@@ -26,13 +35,13 @@ ones you use on the institution portal. A personal amarprosno.com account works
 too: enter your **phone number or email** instead. You can also continue with
 **Google** or **Facebook**.
 
-![Login](docs/images/1-login.png)
+![AmarProsno OMR app login screen](docs/images/1-login.png)
 
 If your institution has more than one branch, pick the branch you work in.
 You will only see that branch's projects, results and credits. You can switch
 later with **Switch branch** in the *Active project* box at the bottom left.
 
-![Select branch](docs/images/2-branch.png)
+![Select the branch to work in](docs/images/2-branch.png)
 
 > Log in once while online. After that, the app keeps you signed in.
 
@@ -43,7 +52,7 @@ Projects are created on the website (OMR → Projects). In the app, go to
 **Open project**. The project is saved on your computer, so it keeps working
 offline.
 
-![Projects](docs/images/3-projects.png)
+![OMR projects list with project details](docs/images/3-projects.png)
 
 ## 4. Evaluate sheets
 
@@ -52,7 +61,7 @@ offline.
 2. Click **Start Evaluation**.
 3. Each sheet appears in **Results** with roll, set, score, correct and wrong.
 
-![Evaluate](docs/images/4-evaluate.png)
+![OMR sheet evaluation results with roll, set and score](docs/images/4-evaluate.png)
 
 **Row actions**
 
@@ -73,7 +82,7 @@ column, the app does not guess — the row is marked **⚠ Mismatch**.
 Click **⚠ Mismatch** above the table to see only those sheets, open **Edit**,
 choose the right roll/set, and the sheet is checked again.
 
-![Mismatch filter](docs/images/5-mismatch.png)
+![OMR sheets with mismatched roll or set bubbles](docs/images/5-mismatch.png)
 
 ## 6. Sync results to the website
 
@@ -82,7 +91,7 @@ Only the results are sent (no images), so it is quick even on mobile data.
 Sheets that are already sent show **Synced** in the *Status* column.
 The results then appear in the project on amarprosno.com.
 
-![Sync](docs/images/6-sync.png)
+![Synced OMR results](docs/images/6-sync.png)
 
 To keep the marked sheet images, click **Download images** on the Evaluate
 page — it saves them all (with a `results.csv`) in one ZIP file.
@@ -94,11 +103,16 @@ shows a bar at the top. When it says the update is ready, click **Restart & Upda
 it installs and reopens by itself (or choose **Later**).
 Your projects, results and login are kept.
 
-![Update available](docs/images/7-update.png)
+![Update ready banner in the OMR app](docs/images/7-update.png)
 
 ---
 
 ## Questions
+
+**How do I evaluate OMR sheets without internet? (ইন্টারনেট ছাড়া ওএমআর শীট কীভাবে মূল্যায়ন করব?)**
+Install this app, log in and open your project once while online, then select
+the scanned OMR images and click **Start Evaluation**. It works offline; sync
+the results later.
 
 **Does it work without internet?** Yes — logging in, opening a project for the
 first time and syncing need internet; evaluating sheets does not.
@@ -109,3 +123,5 @@ Uninstalling the app does not delete it.
 **Uninstall:** Windows Settings → Apps → *AmarProsno OMR* → Uninstall.
 
 **Help:** 01884689484 · 01572906168 (mobile / WhatsApp)
+
+More about the OMR software: [amarprosno.com/omr-software](https://amarprosno.com/omr-software)
